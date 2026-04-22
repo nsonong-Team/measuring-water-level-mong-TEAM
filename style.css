@@ -528,3 +528,152 @@ body {
     height: 10px;
     border-radius: 50%;
 }
+
+/* ================= MOBILE (<= 768px) ================= */
+@media (max-width: 768px) {
+
+    body {
+        overflow: auto;
+    }
+
+    .scene {
+        min-height: 100vh;
+    }
+
+    /* Header */
+    .hdr {
+        height: 50px;
+        padding: 0 10px;
+    }
+
+    .htitle {
+        font-size: 12px;
+    }
+
+    .hsub {
+        font-size: 9px;
+    }
+
+    .hlogo {
+        width: 32px;
+        height: 32px;
+        font-size: 16px;
+    }
+
+    .hk .hkn {
+        font-size: 16px;
+    }
+
+    .hk .hkl {
+        font-size: 7px;
+    }
+
+    /* Gauges */
+    .gs {
+        transform: scale(0.85);
+    }
+
+    .gbox {
+        font-size: 12px;
+        padding: 4px 10px;
+        min-width: 55px;
+    }
+
+    .ruler {
+        height: 130px;
+        width: 24px;
+    }
+
+    .rnum {
+        font-size: 7px;
+        right: 14px;
+    }
+
+    /* Cards */
+    .scard {
+        min-width: 140px;
+        padding: 10px;
+    }
+
+    .sn {
+        font-size: 12px;
+    }
+
+    .sl,
+    .sd {
+        font-size: 9px;
+    }
+
+    .ss {
+        font-size: 9px;
+        padding: 2px 10px;
+    }
+
+    /* River & Layout */
+    .river {
+        height: 90px;
+        bottom: 140px;
+    }
+
+    .rbed {
+        height: 45px;
+        bottom: 95px;
+    }
+
+    .rname {
+        font-size: 22px;
+        letter-spacing: 8px;
+    }
+
+    /* Distance */
+    .dist-box {
+        font-size: 10px;
+        padding: 3px 10px;
+    }
+
+    /* Legend */
+    .legend {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px 10px;
+    }
+
+    .leg-t {
+        font-size: 9px;
+    }
+
+    .leg-i {
+        font-size: 8px;
+    }
+}
+
+
+/* ================= SMALL MOBILE (<= 480px) ================= */
+@media (max-width: 480px) {
+
+    .gs {
+        transform: scale(0.75);
+    }
+
+    .htitle {
+        display: none;
+    }
+
+    .hsub {
+        font-size: 8px;
+    }
+
+    .river {
+        height: 80px;
+        bottom: 130px;
+    }
+
+    .rname {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+
+    .scard {
+        min-width: 120px;
+    }
+}
